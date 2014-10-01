@@ -1,0 +1,43 @@
+/* Styles go here */
+
+.error {
+  margin: 0;
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.error__header {
+  text-align: center;
+}
+
+.error__separator {
+  border: none;
+  border-bottom: 1px dashed #ccc;
+}
+
+.error__header__code {
+  color: #666;
+  font-weight: normal;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  line-height: 50px;
+}
+
+.error__header__title {
+  color: #666;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+.error__body {
+ color: #666;
+ font-weight: normal;
+ font-size: 1.2em;
+}
